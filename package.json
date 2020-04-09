@@ -27,12 +27,17 @@
     "html-webpack-plugin": "^3.2.0",
     "raw-loader": "^3.1.0",
     "terser-webpack-plugin": "^2.2.1",
+    "ts-loader": "^6.2.2",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "phaser": "^3.20.1"
+    "phaser": "^3.22",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8"
   }
 }
