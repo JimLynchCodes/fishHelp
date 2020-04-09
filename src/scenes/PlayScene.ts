@@ -48,7 +48,7 @@ export default class PlayScene extends Scene {
     /**
      * Create background sprites.
      */
-    this.bg = this.add.image(0, 0, 'bg-big').setOrigin(0)
+    this.bg = this.add.image(0, 0, 'bg-big').setOrigin(0);
 
     this.topHorizontalWall = this.physics.add.sprite(0, 0, 'horizontal-wall').setOrigin(0)
     this.leftVerticalWall = this.physics.add.sprite(0, 0, 'vertical-wall').setOrigin(0)
